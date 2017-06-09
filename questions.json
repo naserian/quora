@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "actualQuestion": "What does the fox say?",
+      "author": "Donald Trump",
+      "notes": "Obama could'nt answer it!"
+    },
+    {
+      "actualQuestion": "What does the cow say?",
+      "author": "Donald Duck",
+      "notes": "Mickey could'nt answer it!"
+    },
+    {
+      "actualQuestion": "What does the nasa say?",
+      "author": "Uhuru Kenya",
+      "notes": ""
+    }
+  ]
+}
