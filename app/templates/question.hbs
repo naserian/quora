@@ -1,10 +1,14 @@
-<p><h2>{{model.actualQuestion}}</h2>
-by {{model.author}}</p>
-<br><p>Notes</p>
+<p>
+  <h2>{{model.actualQuestion}}</h2> by {{model.author}}</p>
+<br>
+<p>Notes</p>
 <p>{{model.notes}}</p>
 <br>
 {{#link-to 'index'}}
-Quora Home
+  Quora Home
 {{/link-to}}
 <h3>Post an answer below!</h3>
+{{answer-detail question=model}}
+{{new-answer question=model saveNewAnswer="saveNewAnswer"}}
+
 {{outlet}}
