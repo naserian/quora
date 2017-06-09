@@ -16,6 +16,14 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+      apiKey: "AIzaSyDv9l47mZeQdFNGOYpDSM-xCK9mdt8L-Jo",
+      authDomain: "quora-529b7.firebaseapp.com",
+      databaseURL: "https://quora-529b7.firebaseio.com",
+      projectId: "quora-529b7",
+      storageBucket: "quora-529b7.appspot.com",
+      messagingSenderId: "1088891445383"
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
