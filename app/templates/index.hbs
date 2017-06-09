@@ -2,13 +2,12 @@
 <h3>Here you can view questions posted by other quora users</h3>
 
 <!-- TODO: funtionality to add a new question to the database -->
-{{new-question}}
-
+{{new-question saveNewQuestion="saveNewQuestion"}}
 
 <!-- TODO: a list of all questions currently in the database -->
 <p>Click on of the questions below to answer or see answers</p>
 {{#each model as |question|}}
-{{question-detail question=question}}
+{{question-detail question=question }}
 <hr>
 {{/each}}
 {{outlet}}

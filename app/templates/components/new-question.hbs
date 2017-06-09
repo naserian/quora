@@ -1,1 +1,11 @@
+<form>
+  <label for="actualQuestion">Whats your question today?</label>
+  {{input value=actualQuestion id="actualQuestion"}}
+  <label for="author">Written by??</label>
+  {{input value=author id="author"}}
+  <label for="notes">Extra notes??</label>
+  {{input value=notes id="notes"}}
+  <button {{action "newQuestion"}}>Ask?</button>
+</form>
+
 {{yield}}
