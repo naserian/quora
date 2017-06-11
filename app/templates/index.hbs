@@ -6,8 +6,9 @@
 
 <!-- TODO: a list of all questions currently in the database -->
 <p>Click on of the questions below to answer or see answers</p>
-{{#each model as |question|}}
+{{#each model.questions as |question|}}
 {{question-detail question=question }}
 <hr>
 {{/each}}
+
 {{outlet}}
