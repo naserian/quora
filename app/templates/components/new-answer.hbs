@@ -1,10 +1,18 @@
+{{#if showNewAnswer}}
+
 <form>
   <label for="actualAnswer">Whats your answer</label>
   {{input value=actualAnswer id="actualAnswer"}}
   <label for="author">Who are you?</label>
   {{input value=author id="author"}}
   <button {{action 'saveNewAnswer'}}>Answer!</button>
+  <button {{action 'hideNewAnswer'}}>Cancel</button>
+  
 </form>
+  
+{{else}}
+  <button {{action 'newAnswer'}}>New Answer?</button>
+{{/if}}
 {{yield}}
 
 

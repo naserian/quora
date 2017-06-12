@@ -1,0 +1,17 @@
+{{#if showUpdateQuestion}}
+
+<form>
+  <label for="actualQuestion">Whats your question today?</label>
+  {{input value=actualQuestion id="actualQuestion" placeholder=question.actualQuestion required='required'}}
+  <label for="author">Written by??</label>
+  {{input value=author id="author" placeholder=question.author}}
+  <label for="notes">Extra notes??</label>
+  {{input value=notes id="notes" placeholder=question.notes}}
+  <button {{action "updateQuestion"}}>Update</button>
+  <button {{action "hideUpdateQuestion"}}>Cancel Editing</button>
+</form>
+{{else}}
+  <button {{action "showUpdateQuestion"}}>Edit This Question</button>
+  
+{{/if}}
+{{yield}}

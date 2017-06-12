@@ -1,3 +1,5 @@
+{{#if showNewQuestion}}
+
 <form>
   <label for="actualQuestion">Whats your question today?</label>
   {{input value=actualQuestion id="actualQuestion"}}
@@ -6,6 +8,10 @@
   <label for="notes">Extra notes??</label>
   {{input value=notes id="notes"}}
   <button {{action "newQuestion"}}>Ask?</button>
+  <button {{action "hideNewQuestion"}}>Cancel</button>
 </form>
-
+{{else}}
+  <button {{action "showNewQuestion"}}>Ask a question?</button>
+  
+{{/if}}
 {{yield}}
