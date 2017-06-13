@@ -9,6 +9,7 @@
 <h2>Answers</h2>
 <ul>
   {{#each model.answers as |answer|}}
+    {{answer-rating answer}}
     {{answer-tile answer=answer}}
   {{/each}}
 </ul>
