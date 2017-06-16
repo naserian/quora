@@ -17,13 +17,13 @@ module.exports = function(environment) {
       }
     },
     firebase: {
-      apiKey: "AIzaSyDv9l47mZeQdFNGOYpDSM-xCK9mdt8L-Jo",
-      authDomain: "quora-529b7.firebaseapp.com",
-      databaseURL: "https://quora-529b7.firebaseio.com",
-      projectId: "quora-529b7",
-      storageBucket: "quora-529b7.appspot.com",
-      messagingSenderId: "1088891445383"
-    },
+      apiKey: "AIzaSyAPVSGPvrtM5m2xFiE-BbfknOhZRjilD_M",
+      authDomain: "quora-c17d3.firebaseapp.com",
+      databaseURL: "https://quora-c17d3.firebaseio.com",
+      projectId: "quora-c17d3",
+      storageBucket: "",
+      messagingSenderId: "976171729116"
+  },
 
     APP: {
       // Here you can pass flags/options to your application instance
